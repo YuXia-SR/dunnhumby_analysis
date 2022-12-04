@@ -1,5 +1,7 @@
 import os
 import pandas as pd
+import sys
+sys.path.append('../')
 from hydra import initialize, compose
 from src.data.dunnhumby import run_preprocess
 
