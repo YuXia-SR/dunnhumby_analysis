@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from hydra import initialize, compose
+from src.data.dunnhumby import run_preprocess
 
 def test():
     with initialize(version_base=None, config_path="../cfg"):
@@ -15,6 +16,7 @@ def test_preprocess_completed():
     # verify if the output files are present in the desired path
     with initialize(version_base=None, config_path="../cfg"):
         cfg = compose(config_name="env1_cfg")
+    run_preprocess(cfg)
     processed_data = cfg.paths.processed_data
     files = os.listdir(processed_data)
     # check file presence
