@@ -1,4 +1,7 @@
 import os
+import pandas as pd
+
+
 def test():
     files = os.listdir('./data/raw/')
     assert 'transaction_data.csv' in files
