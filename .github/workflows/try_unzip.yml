@@ -21,4 +21,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Test with pytest
       run: |
+        conda install pytest
+        pytest
         unzip data/TheCompleteJourney.zip -d data/raw
