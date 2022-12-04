@@ -1,5 +1,7 @@
+import os
 def test():
-    assert 1 + 1 == 2
+    files = os.listdir('../data/raw/')
+    assert 'transaction_data.csv' in files
 
 if __name__ == '__main__':
     test()

@@ -1,1 +1,9 @@
 data/TheCompleteJourney.zip filter=lfs diff=lfs merge=lfs -text
+data/raw/product.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/transaction_data.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/campaign_desc.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/campaign_table.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/causal_data.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/coupon.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/coupon_redempt.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/hh_demographic.csv filter=lfs diff=lfs merge=lfs -text

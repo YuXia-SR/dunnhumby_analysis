@@ -23,4 +23,3 @@ jobs:
       run: |
         conda install pytest
         pytest
-        unzip data/TheCompleteJourney.zip -d data/raw
