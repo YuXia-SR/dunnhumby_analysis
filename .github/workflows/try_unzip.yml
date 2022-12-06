@@ -34,5 +34,6 @@ jobs:
       shell: bash -l {0}
       run: |
         git lfs pull
+        unzip data/TheCompleteJourney.zip -d data/raw
         python train.py
         pytest -s
