@@ -35,5 +35,5 @@ jobs:
       run: |
         git lfs pull
         unzip data/TheCompleteJourney.zip -d data/raw
-        python train.py
+        preprocess
         pytest -s
