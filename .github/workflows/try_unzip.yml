@@ -34,4 +34,5 @@ jobs:
       shell: bash -l {0}
       run: |
         git lfs pull
+        python train.py
         pytest -s
