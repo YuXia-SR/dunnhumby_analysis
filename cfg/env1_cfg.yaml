@@ -31,7 +31,7 @@ colnames:
     ]
 
 paths:
-  dunnhumby_data_path: "data/raw/"
+  dunnhumby_data_path: "data/raw/dunnhumby_The-Complete-Journey/dunnhumby - The Complete Journey CSV/"
   processed_data: "data/processed/"
   models_path: "models/"
   results_path: "data/results/"
