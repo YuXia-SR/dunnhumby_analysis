@@ -1,5 +1,6 @@
 import os
 from hydra import initialize, compose
+import pandas as pd
 
 def test_unzip_raw_data():
     # verify if the output files are present in the desired path
